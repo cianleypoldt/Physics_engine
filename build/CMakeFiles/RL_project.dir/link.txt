@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/RL_project.dir/link.d CMakeFiles/RL_project.dir/src/main.cpp.o -o RL_project  -lsfml-graphics -lsfml-window -lsfml-system
