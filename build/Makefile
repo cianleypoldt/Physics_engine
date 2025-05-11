@@ -153,6 +153,30 @@ src/Physics/RigidBody.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Physics_engine.dir/build.make CMakeFiles/Physics_engine.dir/src/Physics/RigidBody.cpp.s
 .PHONY : src/Physics/RigidBody.cpp.s
 
+src/Physics/Simulation.o: src/Physics/Simulation.cpp.o
+.PHONY : src/Physics/Simulation.o
+
+# target to build an object file
+src/Physics/Simulation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Physics_engine.dir/build.make CMakeFiles/Physics_engine.dir/src/Physics/Simulation.cpp.o
+.PHONY : src/Physics/Simulation.cpp.o
+
+src/Physics/Simulation.i: src/Physics/Simulation.cpp.i
+.PHONY : src/Physics/Simulation.i
+
+# target to preprocess a source file
+src/Physics/Simulation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Physics_engine.dir/build.make CMakeFiles/Physics_engine.dir/src/Physics/Simulation.cpp.i
+.PHONY : src/Physics/Simulation.cpp.i
+
+src/Physics/Simulation.s: src/Physics/Simulation.cpp.s
+.PHONY : src/Physics/Simulation.s
+
+# target to generate assembly for a file
+src/Physics/Simulation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Physics_engine.dir/build.make CMakeFiles/Physics_engine.dir/src/Physics/Simulation.cpp.s
+.PHONY : src/Physics/Simulation.cpp.s
+
 src/Rendering/display.o: src/Rendering/display.cpp.o
 .PHONY : src/Rendering/display.o
 
@@ -213,6 +237,9 @@ help:
 	@echo "... src/Physics/RigidBody.o"
 	@echo "... src/Physics/RigidBody.i"
 	@echo "... src/Physics/RigidBody.s"
+	@echo "... src/Physics/Simulation.o"
+	@echo "... src/Physics/Simulation.i"
+	@echo "... src/Physics/Simulation.s"
 	@echo "... src/Rendering/display.o"
 	@echo "... src/Rendering/display.i"
 	@echo "... src/Rendering/display.s"

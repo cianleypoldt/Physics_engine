@@ -86,10 +86,24 @@ CMakeFiles/Physics_engine.dir/src/Physics/RigidBody.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Physics_engine.dir/src/Physics/RigidBody.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cianleypoldt/Documents/cpp/Physics_engine/src/Physics/RigidBody.cpp -o CMakeFiles/Physics_engine.dir/src/Physics/RigidBody.cpp.s
 
+CMakeFiles/Physics_engine.dir/src/Physics/Simulation.cpp.o: CMakeFiles/Physics_engine.dir/flags.make
+CMakeFiles/Physics_engine.dir/src/Physics/Simulation.cpp.o: /home/cianleypoldt/Documents/cpp/Physics_engine/src/Physics/Simulation.cpp
+CMakeFiles/Physics_engine.dir/src/Physics/Simulation.cpp.o: CMakeFiles/Physics_engine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cianleypoldt/Documents/cpp/Physics_engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Physics_engine.dir/src/Physics/Simulation.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Physics_engine.dir/src/Physics/Simulation.cpp.o -MF CMakeFiles/Physics_engine.dir/src/Physics/Simulation.cpp.o.d -o CMakeFiles/Physics_engine.dir/src/Physics/Simulation.cpp.o -c /home/cianleypoldt/Documents/cpp/Physics_engine/src/Physics/Simulation.cpp
+
+CMakeFiles/Physics_engine.dir/src/Physics/Simulation.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Physics_engine.dir/src/Physics/Simulation.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cianleypoldt/Documents/cpp/Physics_engine/src/Physics/Simulation.cpp > CMakeFiles/Physics_engine.dir/src/Physics/Simulation.cpp.i
+
+CMakeFiles/Physics_engine.dir/src/Physics/Simulation.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Physics_engine.dir/src/Physics/Simulation.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cianleypoldt/Documents/cpp/Physics_engine/src/Physics/Simulation.cpp -o CMakeFiles/Physics_engine.dir/src/Physics/Simulation.cpp.s
+
 CMakeFiles/Physics_engine.dir/src/Rendering/display.cpp.o: CMakeFiles/Physics_engine.dir/flags.make
 CMakeFiles/Physics_engine.dir/src/Rendering/display.cpp.o: /home/cianleypoldt/Documents/cpp/Physics_engine/src/Rendering/display.cpp
 CMakeFiles/Physics_engine.dir/src/Rendering/display.cpp.o: CMakeFiles/Physics_engine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cianleypoldt/Documents/cpp/Physics_engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Physics_engine.dir/src/Rendering/display.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cianleypoldt/Documents/cpp/Physics_engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Physics_engine.dir/src/Rendering/display.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Physics_engine.dir/src/Rendering/display.cpp.o -MF CMakeFiles/Physics_engine.dir/src/Rendering/display.cpp.o.d -o CMakeFiles/Physics_engine.dir/src/Rendering/display.cpp.o -c /home/cianleypoldt/Documents/cpp/Physics_engine/src/Rendering/display.cpp
 
 CMakeFiles/Physics_engine.dir/src/Rendering/display.cpp.i: cmake_force
@@ -103,7 +117,7 @@ CMakeFiles/Physics_engine.dir/src/Rendering/display.cpp.s: cmake_force
 CMakeFiles/Physics_engine.dir/src/main.cpp.o: CMakeFiles/Physics_engine.dir/flags.make
 CMakeFiles/Physics_engine.dir/src/main.cpp.o: /home/cianleypoldt/Documents/cpp/Physics_engine/src/main.cpp
 CMakeFiles/Physics_engine.dir/src/main.cpp.o: CMakeFiles/Physics_engine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cianleypoldt/Documents/cpp/Physics_engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Physics_engine.dir/src/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cianleypoldt/Documents/cpp/Physics_engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Physics_engine.dir/src/main.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Physics_engine.dir/src/main.cpp.o -MF CMakeFiles/Physics_engine.dir/src/main.cpp.o.d -o CMakeFiles/Physics_engine.dir/src/main.cpp.o -c /home/cianleypoldt/Documents/cpp/Physics_engine/src/main.cpp
 
 CMakeFiles/Physics_engine.dir/src/main.cpp.i: cmake_force
@@ -117,6 +131,7 @@ CMakeFiles/Physics_engine.dir/src/main.cpp.s: cmake_force
 # Object files for target Physics_engine
 Physics_engine_OBJECTS = \
 "CMakeFiles/Physics_engine.dir/src/Physics/RigidBody.cpp.o" \
+"CMakeFiles/Physics_engine.dir/src/Physics/Simulation.cpp.o" \
 "CMakeFiles/Physics_engine.dir/src/Rendering/display.cpp.o" \
 "CMakeFiles/Physics_engine.dir/src/main.cpp.o"
 
@@ -124,12 +139,13 @@ Physics_engine_OBJECTS = \
 Physics_engine_EXTERNAL_OBJECTS =
 
 Physics_engine: CMakeFiles/Physics_engine.dir/src/Physics/RigidBody.cpp.o
+Physics_engine: CMakeFiles/Physics_engine.dir/src/Physics/Simulation.cpp.o
 Physics_engine: CMakeFiles/Physics_engine.dir/src/Rendering/display.cpp.o
 Physics_engine: CMakeFiles/Physics_engine.dir/src/main.cpp.o
 Physics_engine: CMakeFiles/Physics_engine.dir/build.make
 Physics_engine: CMakeFiles/Physics_engine.dir/compiler_depend.ts
 Physics_engine: CMakeFiles/Physics_engine.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/cianleypoldt/Documents/cpp/Physics_engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable Physics_engine"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/cianleypoldt/Documents/cpp/Physics_engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable Physics_engine"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Physics_engine.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

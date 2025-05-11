@@ -2,13 +2,13 @@
 
 struct RigidBody
 {
-    enum ColliderType : unsigned char { NONE, CIRCLE, BOX };
+    enum class ColliderType : unsigned char { NONE = 0, CIRCLE, BOX };
     RigidBody(ColliderType collider_type, const sf::Vector2f &position = {0, 0}, float rotation = 0, float mass = 1);
 
     [[nodiscard]] sf::Vector2f getPosition() const { return m_position; }
     [[nodiscard]] float getRotation() const { return m_rotation; }
     [[nodiscard]] float getBoundingRadius() const { return m_bounding_radius; }
-    [[nodiscard]] unsigned char getColliderType() const { return m_collider_type; }
+    [[nodiscard]] ColliderType getColliderType() const { return m_collider_type; }
 
     void setPosition(const sf::Vector2f &position) { m_position = position; }
     void setRotation(float rotation) { m_rotation = rotation; }

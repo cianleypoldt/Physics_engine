@@ -5,9 +5,11 @@
 
 int main()
 {
-    constexpr unsigned int rb_count = 10;
-
     Display display({800, 600}, "Renderdisplay", sf::Style::None, sf::State::Windowed);
+
+    RigidBody rigidbody(RigidBody::ColliderType::CIRCLE, {100, 100});
+
+    rigidbody.applyAcceleration({10, 0});
 
     while (display.isOpen())
     {

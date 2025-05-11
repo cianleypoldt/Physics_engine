@@ -2,6 +2,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Physics_engine.dir/link.d"
   "CMakeFiles/Physics_engine.dir/src/Physics/RigidBody.cpp.o"
   "CMakeFiles/Physics_engine.dir/src/Physics/RigidBody.cpp.o.d"
+  "CMakeFiles/Physics_engine.dir/src/Physics/Simulation.cpp.o"
+  "CMakeFiles/Physics_engine.dir/src/Physics/Simulation.cpp.o.d"
   "CMakeFiles/Physics_engine.dir/src/Rendering/display.cpp.o"
   "CMakeFiles/Physics_engine.dir/src/Rendering/display.cpp.o.d"
   "CMakeFiles/Physics_engine.dir/src/main.cpp.o"
